@@ -10,12 +10,13 @@ import 'slick-carousel';
 
 // alert('labas');
 
-$(document).ready(function() {
+$(document).ready(function () {
   $('.autoplay').slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    dots: true
   });
 });
 

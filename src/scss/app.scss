@@ -34,14 +34,20 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
   margin: 0 auto;
   bottom: -30px;
   transition: all 3000ms linear;
+
   &:hover {
-      cursor: pointer;
-      background-color: red;
-      color: black;
-      transform: scale(2);
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    transform: scale(2);
   }
+
   i {
     color: white;
     font-size: 26px;
   }
+}
+
+.card {
+  margin: 0 auto;
 }
