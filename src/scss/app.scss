@@ -13,5 +13,12 @@ $la-font-path: '~line-awesome/dist/line-awesome/fonts/';
 
 
 body {
-  background: red;
+  background: white;
 }
+
+.slick-prev:before, 
+  .slick-next:before {
+      color: black;
+  }
+
+  
