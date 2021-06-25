@@ -4,22 +4,19 @@ import '../scss/app.scss';
 
 /* Demo JS */
 import './demo.js';
-
-
-import $ from "jquery";
+import $ from 'jquery';
 
 import 'slick-carousel';
 
 // alert('labas');
 
-
-$(document).ready(function() {
+$(document).ready(function () {
   $('.autoplay').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+    // autoplay: true,
+    // autoplaySpeed: 2000,
+    dots: true
   });
 });
-
 
