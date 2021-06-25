@@ -21,4 +21,50 @@ body {
       color: black;
   }
 
-  
+.card {
+  margin: 10px auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px 5px #0000006c;
+  .card-img-wrappper {
+    background-color: rgb(236, 227, 215);
+    margin-bottom: 10px;
+    img {
+      box-shadow: 3px 3px 8px 3px #0000006c; 
+      border-radius: 3px;
+    }    
+  }
+}
+
+.btn-row-area {
+  padding: 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  a {
+    text-decoration: none;
+    font-weight: 500; 
+    }
+    transition: background-color 800ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    &:hover {
+    background-color: blue;
+    a {
+      color: white;
+    font-weight: 500;
+    } 
+  }
+} 
+
+.my-single-slider {
+  transition: transform 1s;
+}
+
+.my-single-slider:hover {
+  transform: translate(0px, -10px);
+}
+
+
+
+
+
+
+
+
